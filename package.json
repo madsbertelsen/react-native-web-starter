@@ -1,0 +1,19 @@
+{
+  "name": "react-native-web-starter",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-native-web": "0.0.119"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
