@@ -1,14 +1,13 @@
 import React from 'react';
-import { Text, StyleSheet } from 'react-native-web';
+import { Text, StyleSheet, View, Image } from 'react-native-web';
 
 export default ({ name }: { name: string }) => (
-  <Text style={styles.text}>Hello {name}!</Text>
+  <View>
+    <Image
+      style={{ height: 100, width: '100%' }}
+      source={{
+        uri: 'https://payload.demo.mapstory.io/api/media/file/Cover%20i%20APP,%20Sallingsund%20-%201000x200.jpg',
+      }}
+    />
+  </View>
 );
-
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 8,
-  },
-});
